@@ -1,0 +1,31 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="jpVE3Tgd0Z5lt0q8RquC">
+    <mxGraphModel dx="774" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nH7aQHMJJpV6oso10lVi-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=240;height=70;" value="Sistem Informasi Peminjaman dan Pengembalian Peralatan Laboratorium&lt;br/&gt;Kampus" vertex="1">
+          <mxGeometry height="730" width="510" x="140" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7aQHMJJpV6oso10lVi-4" parent="nH7aQHMJJpV6oso10lVi-1" style="ellipse;" value="lihat ketersediaan&#xa; peralatan" vertex="1">
+          <mxGeometry height="80" width="175" x="20" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7aQHMJJpV6oso10lVi-6" parent="nH7aQHMJJpV6oso10lVi-1" style="ellipse;" value="kelola data mahasiswa" vertex="1">
+          <mxGeometry height="90" width="185" x="280" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7aQHMJJpV6oso10lVi-8" edge="1" parent="1" source="nH7aQHMJJpV6oso10lVi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="nH7aQHMJJpV6oso10lVi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7aQHMJJpV6oso10lVi-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="mahasiswa" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7aQHMJJpV6oso10lVi-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="petugas laboratorium&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="730" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7aQHMJJpV6oso10lVi-9" edge="1" parent="1" source="nH7aQHMJJpV6oso10lVi-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.912;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="nH7aQHMJJpV6oso10lVi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
