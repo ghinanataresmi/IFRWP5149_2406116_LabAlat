@@ -1,0 +1,12 @@
+| ID artefak                    | : |                                     SIA-P04-UC                                    |
+|-------------------------------|:---:|-----------------------------------------------------------------------------------|
+| Judul                         | : | Sistem Informasi Akademik, Layanan Hasil Studi                                    |
+| Pertemuan                     | : | 04                                                                                |
+| Sumber kebutuhan              | : | SIA-R07 s.d. SIA-R12                                                              |
+| Jenis/status                  | : | Use case diagram lanjutan (kumulatif), generalization dan collaboration           |
+| Kakas                         | : | draw.io                                                                           |
+| Pembuat                       | : | Ghina Nataresmi shofuro_2406116                                                                           |
+| Versi dan tanggal             | : | v01 / 27-10-2026                                                                  |
+| Generalization yang digunakan | : | Mahasiswa → Civitas Akademika; Dosen → Civitas Akademika; UC11, UC12, UC13 → UC10 |
+| Collaboration yang digunakan  | : | SIA-CO01 → SIA-UC08; SIA-CO02 → SIA-UC09                                          |
+| Pemeriksaan                   | : |                                                                                   |
