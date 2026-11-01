@@ -1,0 +1,12 @@
+| No | Temuan | Perbaikan yang Diperlukan | Alasan |
+|---|---|---|---|
+| 1 | Aktor | Memastikan aktor utama *Petugas Laboratorium* dan *Kepala Laboratorium* terdefinisi dengan jelas. | Karena aktor-aktor tersebut yang mengoperasikan sistem manajemen laboratorium sesuai kebutuhan bisnis. |
+| 2 | Use Case | Menambahkan rangkaian *use case* pengelolaan peralatan (LAB-UC01 s.d. LAB-UC12) termasuk peminjaman dan pengembalian. | Karena fungsi tersebut merupakan alur utama dalam sistem laboratorium. |
+| 3 | Generalization / Hubungan | Menghubungkan *use case* khusus (seperti Ubah/Hapus Data) ke *use case* umum (*Kelola Data Peralatan*). | Agar struktur *use case* menjadi rapi dengan menerapkan prinsip pewarisan (*generalization*). |
+| 4 | Include / Extend | Menerapkan alur bersama (*include*) seperti pada proses pemeriksaan kondisi peralatan dalam pencatatan pengembalian. | Karena fungsi pemeriksaan kondisi merupakan sub-proses yang dipanggil dari alur pengembalian (LAB-UC11 & LAB-UC12). |
+| 5 | Deskripsi Use Case | Melengkapi rincian tabel spesifikasi *use case* (Nama, Aktor, Tujuan, Deskripsi, Skenario Normal, Skenario Alternative, dan Skenario Akhir). | Agar setiap alur kegiatan dan respons sistem terdokumentasi dengan jelas. |
+| 6 | Validasi Status Peminjaman | Menambahkan aturan pengecekan status (misalnya status harus *Dipinjam* saat pengembalian). | Agar sistem menolak transaksi yang tidak valid atau tidak sesuai prasyarat. |
+| 7 | Validasi Data Terpakai | Menambahkan aturan pengecekan relasi data (misalnya peralatan yang sedang dipinjam tidak dapat dihapus). | Untuk mencegah inkonsistensi data dan penghapusan data yang masih aktif digunakan. |
+| 8 | Hak Akses Aktor | Membatasi fungsi laporan hanya dapat diakses oleh Kepala Laboratorium dan fungsi operasional oleh Petugas Laboratorium. | Untuk menjaga keamanan akses dan otorisasi wewenang di dalam sistem. |
+| 9 | Pesan Kesalahan (*Error Handling*) | Menambahkan skenario alternatif dan pesan sistem ketika terjadi kesalahan (seperti data tidak ditemukan atau tidak sah). | Agar sistem memberikan umpan balik (*feedback*) yang informatif kepada pengguna. |
+| 10 | Diagram Kumulatif | Mengintegrasikan seluruh modul dari pertemuan sebelumnya secara utuh. | Karena pengembangan sistem laboratorium ini bersifat berkelanjutan dan terakumulasi. |
