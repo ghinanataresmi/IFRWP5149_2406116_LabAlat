@@ -1,0 +1,95 @@
+<mxfile host="65bd71144e">
+    <diagram id="l6GUPWMDumqnluOVkRB4" name="Activity Diagram Cetak Bukti Pengajuan">
+        <mxGraphModel dx="811" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-1" parent="1" style="swimlane;html=1;startSize=30;horizontal=1;collapsible=0;horizontalStack=0;fontStyle=1;align=center;whiteSpace=wrap;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="810" width="250" x="110" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-2" parent="uh_DoggVSCHQvtYWJYel-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="110" y="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-3" parent="uh_DoggVSCHQvtYWJYel-1" style="rounded=1;whiteSpace=wrap;html=1;arcsize=15;fillColor=#ffffff;strokeColor=#000000;" value="Mengonfirmasi pencetakan" vertex="1">
+                    <mxGeometry height="50" width="210" x="20" y="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-4" parent="1" style="swimlane;html=1;startSize=30;horizontal=1;collapsible=0;horizontalStack=0;fontStyle=1;align=center;whiteSpace=wrap;" value="Sistem" vertex="1">
+                    <mxGeometry height="810" width="460" x="360" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-5" parent="uh_DoggVSCHQvtYWJYel-4" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Mahasiswa&#xa;memilih cetak&#xa;bukti?" vertex="1">
+                    <mxGeometry height="70" width="140" x="80" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-6" parent="uh_DoggVSCHQvtYWJYel-4" style="rounded=1;whiteSpace=wrap;html=1;arcsize=15;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menampilkan bukti pengajuan dengan&#xa;nomor pengajuan dan status&#xa;Menunggu Keputusan" vertex="1">
+                    <mxGeometry height="60" width="220" x="40" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-20" edge="1" parent="uh_DoggVSCHQvtYWJYel-4" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+                    <mxGeometry relative="1" x="-0.8061" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="375" y="450"/>
+                            <mxPoint x="375" y="670"/>
+                        </Array>
+                        <mxPoint x="240.0000000000001" y="450" as="sourcePoint"/>
+                        <mxPoint x="155" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-7" parent="uh_DoggVSCHQvtYWJYel-4" style="rounded=1;whiteSpace=wrap;html=1;arcsize=15;fillColor=#f8cecc;strokeColor=#b85450;" value="Menutup konfirmasi tanpa mencetak&#xa;bukti dan pengajuan tetap tersimpan" vertex="1">
+                    <mxGeometry height="60" width="220" x="25" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-8" parent="uh_DoggVSCHQvtYWJYel-4" style="rounded=1;whiteSpace=wrap;html=1;arcsize=15;fillColor=#ffffff;strokeColor=#000000;" value="Mencetak bukti pengajuan" vertex="1">
+                    <mxGeometry height="50" width="180" x="45" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-9" parent="uh_DoggVSCHQvtYWJYel-4" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="40" width="40" x="115" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-10" parent="uh_DoggVSCHQvtYWJYel-4" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="115" y="780" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-11" edge="1" parent="uh_DoggVSCHQvtYWJYel-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-110" y="50"/>
+                            <mxPoint x="150" y="50"/>
+                        </Array>
+                        <mxPoint x="-110" y="75" as="sourcePoint"/>
+                        <mxPoint x="150.00000000000023" y="140.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-13" edge="1" parent="uh_DoggVSCHQvtYWJYel-4" source="uh_DoggVSCHQvtYWJYel-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=#ffffff;align=center;entryX=0.537;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.946;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;" target="uh_DoggVSCHQvtYWJYel-7" value="[tidak]">
+                    <mxGeometry relative="1" x="0.1073" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="420" y="176.8"/>
+                            <mxPoint x="420" y="375"/>
+                            <mxPoint x="143.1" y="375"/>
+                        </Array>
+                        <mxPoint x="380" y="170" as="sourcePoint"/>
+                        <mxPoint x="140" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-12" edge="1" parent="1" source="uh_DoggVSCHQvtYWJYel-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=#ffffff;align=center;" target="uh_DoggVSCHQvtYWJYel-6" value="[ya, memilih cetak]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-14" edge="1" parent="1" source="uh_DoggVSCHQvtYWJYel-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="uh_DoggVSCHQvtYWJYel-3" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="385" y="450"/>
+                            <mxPoint x="215" y="450"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-15" edge="1" parent="1" source="uh_DoggVSCHQvtYWJYel-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="uh_DoggVSCHQvtYWJYel-8" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="215" y="785"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-16" edge="1" parent="1" source="uh_DoggVSCHQvtYWJYel-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="uh_DoggVSCHQvtYWJYel-9" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="uh_DoggVSCHQvtYWJYel-18" edge="1" parent="1" source="uh_DoggVSCHQvtYWJYel-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="uh_DoggVSCHQvtYWJYel-10" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
